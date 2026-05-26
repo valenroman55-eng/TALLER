@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="♡𝆬     ˖    ̇   vectores  🥏⃝̸   ꒱.png" type="image/x-icon">
+    <title>Repaso</title>
+
+    <style>
+        .caja1{
+            background-color: cornflowerblue;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(155, 187, 245);
+        }
+
+        button{
+            background-color: rgb(142, 178, 247);
+            color: aliceblue;
+            width: 200px;
+            height: 100px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(250, 125, 187);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="caja1"> 
+       <button id="btn_mensaje"><h1 id="mensaje">FLEXBOX</h1></button> 
+
+    </div>
+
+    <script>
+        const mensajeh1= document.getElementById("mensaje");
+        const boton = document.getElementById("btn_mensaje");
+        boton.addEventListener("click", function(){
+            alert("Hola, Ejecutaste correctamente el boton");
+            mensajeh1.textContent="CSS";
+        })
+        
+    </script>
+
+</body>
+</html>
